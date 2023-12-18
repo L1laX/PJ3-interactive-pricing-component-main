@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.range::-webkit-slider-thumb {
+  background-image: url(../src/assets/images/icon-slider.svg);
+}
+
+.range::-webkit-slider-thumb:hover {
+  background-color: hsl(174, 86%, 45%);
+}
