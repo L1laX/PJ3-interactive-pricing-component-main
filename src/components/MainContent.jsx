@@ -1,7 +1,6 @@
 import checkicon from "../assets/images/icon-check.svg";
 import ToggleBotton from "./ToggleBotton";
 import Botton from "./Botton";
-import thumb from "../assets/images/icon-slider.svg";
 
 function MainContent({
   checkSubscibe,
