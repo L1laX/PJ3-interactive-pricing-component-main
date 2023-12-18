@@ -33,7 +33,7 @@ function App() {
       >
         <path
           fill="#F1F5FE"
-          fill-rule="evenodd"
+          fillRule="evenodd"
           d="M0 0h1440v449H191.5C85.737 449 0 363.263 0 257.5V0z"
         />
       </svg>
