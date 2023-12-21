@@ -1,10 +1,11 @@
-import bgHeader from "../assets/images/pattern-circles.svg";
+import React from "react";
 
 const Header = () => {
   return (
     <>
     <div className="bg-imgae gap-3  bg-contain bg-center bg-no-repeat flex h-40 flex-col items-center justify-center">
-      <img src={bgHeader} alt="" />
+    <svg xmlns="http://www.w3.org/2000/svg" width="146" height="145"><g fill="none" fillRule="evenodd" stroke="#CFD8EF"><circle cx="63" cy="82" r="62.5"/><circle cx="105" cy="41" r="40.5"/></g></svg>
+    
     <div
       className=" z-50 mx-6 my-10 flex h-40 flex-col items-center justify-center  gap-3  bg-contain bg-center bg-no-repeat p-6 absolute "
     >
