@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bgHeader})` }}
-      className=" mx-6 my-10 flex h-40 flex-col items-center justify-center gap-3  bg-contain bg-center bg-no-repeat p-6"
+      className=" z-50 mx-6 my-10 flex h-40 flex-col items-center justify-center  gap-3  bg-contain bg-center bg-no-repeat p-6"
     >
       <h1 className="text-center text-xl font-bold">
         Simple, traffic-based pricing
