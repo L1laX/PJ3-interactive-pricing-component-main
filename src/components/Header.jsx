@@ -2,9 +2,11 @@ import bgHeader from "../assets/images/pattern-circles.svg";
 
 const Header = () => {
   return (
+    <>
+    <div className="bg-imgae gap-3  bg-contain bg-center bg-no-repeat flex h-40 flex-col items-center justify-center">
+      <img src={bgHeader} alt="" />
     <div
-      style={{ backgroundImage: `url(${bgHeader})` }}
-      className=" z-50 mx-6 my-10 flex h-40 flex-col items-center justify-center  gap-3  bg-contain bg-center bg-no-repeat p-6"
+      className=" z-50 mx-6 my-10 flex h-40 flex-col items-center justify-center  gap-3  bg-contain bg-center bg-no-repeat p-6 absolute "
     >
       <h1 className="text-center text-xl font-bold">
         Simple, traffic-based pricing
@@ -13,6 +15,8 @@ const Header = () => {
         Sign-up for our 30-day trial. No credit card required.
       </p>
     </div>
+    </div>
+    </>
   );
 };
 
