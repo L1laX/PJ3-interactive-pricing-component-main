@@ -4,4 +4,4 @@ This is a solution to the [Interactive pricing component challenge on Frontend M
 
 Preview
 
-(./design/desktop-preview.jpg)
+![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
